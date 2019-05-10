@@ -13,4 +13,14 @@
         <servlet-name>testDemo</servlet-name>
         <url-pattern>/hello</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>HeroListServletname</servlet-name>
+        <servlet-class>HeroListServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>HeroListServletname</servlet-name>
+        <url-pattern>/listHero</url-pattern>
+    </servlet-mapping>
 </web-app>
